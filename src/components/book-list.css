@@ -1,0 +1,109 @@
+main.book-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e6e2c7;
+  max-width: 100%;
+}
+
+section.search {
+  max-width: 100%;
+  margin: 10px 10px 0 20px;
+  padding: 10px 0;
+  border-bottom: 1px solid;
+
+}
+
+.search {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+  gap: 10px;
+}
+
+.search-box {
+  position: relative;
+  display: inline-block;
+}
+
+.search-box input[type="text"] {
+  width: 25vw;
+  height: 36px;
+  border: 1px solid #b2b1b1;
+  border-radius: 6px;
+  
+}
+
+.search-box button[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+
+}
+
+.search-box button[type="submit"] i {
+  color: #999;
+}
+
+.search-box input[type="text"]:focus {
+  border-color: #555;
+}
+
+.search-box input[type="text"]:focus+button[type="submit"] i {
+  color: #555;
+}
+
+section.books {
+  margin: 0 10px;
+  max-width: 100%;
+}
+
+div.books {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.book-in-books {
+  width: 18%;
+  border: 1px solid rgb(108, 144, 24);;
+  border-radius: 10px;
+  margin: 10px 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  min-width: 150px
+
+}
+
+.button-view {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  vertical-align: bottom;
+  margin-top: auto;
+}
+
+button.view.btn-outline-info {
+  border-color: rgb(108, 144, 24);
+  color: rgb(108, 144, 24);
+}
+
+button.view.btn-outline-info:hover {
+  
+  color: black;
+}
+
+.cart-size {
+  width: 100%;
+}
+

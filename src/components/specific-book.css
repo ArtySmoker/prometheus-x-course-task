@@ -1,0 +1,134 @@
+main.only-book {
+    background-color: #e6e2c7;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+section.specific-book {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    position: relative;
+    padding: 10px 30px 10px 30px;
+    width: 90%;
+
+}
+
+.container {
+    padding: 1em;
+    border: 2px solid #bbb;
+    font-size: 1.2em;
+    border-radius: 0.25em;
+    border-color: rgb(24, 51, 170);
+}
+
+div.book {
+    flex-grow: 1;
+    border: 0;
+    padding: 40px;
+}
+
+section.description.container {
+    background-color: #e6e2c7;
+    margin: 0 auto;
+    width: 100%;
+    border: 0;
+    width: 100%;
+    text-align: justify;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.img-book {
+    width: 100%;
+}
+
+input[type='number'] {
+    width: 25%;
+}
+
+.align {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.label-input label,
+.label-input input {
+    display: inline-block;
+}
+
+.label-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input#count {
+    text-align: right;
+    border: 1px solid rgb(108, 144, 24);
+}
+
+.form-label {
+    margin-bottom: 0 !important;
+}
+
+.add {
+    display: block;
+    margin-left: auto;
+}
+
+.add-card {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+p.align,
+div.label-input {
+    margin: 0.5rem 0;
+}
+
+.form-control::-webkit-outer-spin-button,
+.form-control::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.form-control::-webkit-outer-spin-button,
+.form-control::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.button-plus-minus {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    width: 5rem;
+}
+
+button.plus,
+button.minus {
+    text-align: center;
+    line-height: 5px;
+    border: 1px solid rgb(108, 144, 24);
+}
+
+button.minus {
+    border-radius: 0 0 5px 5px;
+}
+
+button.plus {
+    border-radius: 5px 5px 0 0;
+}
+
+.text-aling{
+    text-align: justify;
+}

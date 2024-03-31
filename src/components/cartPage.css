@@ -1,0 +1,80 @@
+.img-cart-empty {
+    width: 200px;
+    height: 200px;
+}
+
+div.empty-cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 60vw;
+    margin: auto;
+    margin-top: 50px
+}
+
+div.empty-cart span {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+div.cart-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 60vw;
+    margin: 0 auto;
+    margin-top: 50px
+}
+
+table.cart-book-list {
+
+    box-sizing: border-box;
+    margin: 20px auto;
+    border: 2px solid gray;
+    width: 100%;
+}
+
+thead.cart-book-list,
+tbody.cart-book-list {
+
+    border: 2px solid gray;
+}
+
+tr.cart-book-list {
+    /* display: flex;
+    justify-content: space-between; */
+    border-top: 2px solid gray;
+}
+
+tr.table-head {
+    font-weight: bold;
+}
+
+tr.cart-book-list td {
+    font-weight: bold;
+}
+
+td.count,
+td.price {
+    text-align:right;
+}
+
+thead,
+tbody,
+th,
+tr {
+    width: 100%;
+}
+
+div.button-purchase {
+    margin-left: auto;
+}
+
+td.title-col {
+    padding-left: 10px;
+}
+
+td.price {
+    padding-right: 10px;
+}

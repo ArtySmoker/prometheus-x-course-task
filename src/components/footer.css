@@ -1,0 +1,20 @@
+footer {
+    width: 100%;
+    padding: 10px;
+    height: 6vh;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid grey;
+}
+
+footer a {
+    color: rgb(23, 23, 24);
+}
+
+footer p {
+    margin: 0;
+}

@@ -1,0 +1,52 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    padding: 10px 30px;
+    height: 10vh;
+}
+
+.header {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid gray;
+}
+
+.busket {
+    height: 40px;
+    width: 40px;
+    border: none;
+}
+
+.header-right {
+    margin-right: 10px;
+}
+
+p.header-right {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.header-right-block {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+h4.header {
+    margin: 0;
+}
+
+button.btn-outline-dark:hover {
+    background-color: #99ca60;
+}

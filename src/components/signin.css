@@ -1,0 +1,56 @@
+#singin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+img.singin {
+    border: 1px solid black;
+    border-radius: 5%;
+    width: 160px;
+    height: 160px;
+    margin: 1em 0 1em 0;
+    border-color: rgb(144, 142, 24);;
+}
+
+input#name {
+    text-align: center !important;
+}
+
+input.singin,
+.singin {
+    text-align: center !important;
+    width: 200px;
+    margin: 0 0 1em 0;
+    padding: 2px;
+}
+
+button.sign {
+    border-color: rgb(108, 144, 24) !important;
+}
+
+.row {
+    width: 200px;
+
+}
+
+@media screen and (max-width: 320px) {
+
+    form.singin {
+        margin-left: 8px;
+        margin-right: 8px;
+        width: 100%;
+    }
+
+    input.singin,
+    button.singin {
+        width: 100%;
+    }
+
+    img.singin {
+        width: 200px;
+        height: 200px;
+    }
+}

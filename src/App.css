@@ -1,0 +1,14 @@
+#page-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
+}
+
+#content-wrap {
+  min-height: 84vh;
+  flex-grow: 1;
+  width: 100%;
+  background-color: #e6e2c7;
+
+}
